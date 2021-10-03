@@ -46,7 +46,7 @@
 <ul>
   <li><code>m == rolls.length</code></li>
   <li><code>1 &lt;= n, m &lt;= 10<sup>5</sup></code></li>
-  <li><code>1 &lt;= rolls[i], mean &lt;= 6</code></li>told
+  <li><code>1 &lt;= rolls[i], mean &lt;= 6</code></li>
 </ul>
 
 
