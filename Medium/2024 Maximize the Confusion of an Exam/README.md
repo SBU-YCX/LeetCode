@@ -55,7 +55,7 @@ In both cases, there are five consecutive 'T's.
 <strong>Logical Thinking</strong>
 <p>We can divide this problem into two subproblems, one is finding the maximum number of consecutive <code>'T'</code>s by converting at most <code>k</code> <code>'F'</code>s, the other is finding the maximum number of consecutive <code>'F'</code>s by converting at most <code>k</code> <code>'T'</code>s. Each subproblem can be solved by sliding window, and the global answer is the maximum between these two local answers.</p>
 
-
+ 
 <strong>C++</strong>
 
 ```
