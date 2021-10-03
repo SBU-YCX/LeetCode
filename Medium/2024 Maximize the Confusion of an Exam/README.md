@@ -1,7 +1,7 @@
 # 2028. Find Missing Observations
 
 
-## Description:
+## Description: 
 
 <p>You have observations of <code>n + m</code> <strong>6-sided</strong> dice rolls with each face numbered from <code>1</code> to <code>6</code>. <code>n</code> of the observations went missing, and you only have the observations of <code>m</code> rolls. Fortunately, you have also calculated the <strong>average value</strong> of the <code>n + m</code> rolls.</p>
 <p>You are given an integer array <code>rolls</code> of length <code>m</code> where <code>rolls[i]</code> is the value of the <code>i<sup>th</sup></code> observation. You are also given the two integers <code>mean</code> and <code>n</code>.</p>
@@ -46,11 +46,11 @@
 <ul>
   <li><code>m == rolls.length</code></li>
   <li><code>1 &lt;= n, m &lt;= 10<sup>5</sup></code></li>
-  <li><code>1 &lt;= rolls[i], mean &lt;= 6</code></li>
+  <li><code>1 &lt;= rolls[i], mean &lt;= 6</code></li>told
 </ul>
 
 
-## Solution:
+## Solution: 
 
 <strong>Logical Thinking</strong>
 <p>First, from <code>m</code>, <code>n</code> and <code>mean</code>, we can get the total sum of all rolls <code>mean * (m + n)</code>. We are also told the array <code>rolls</code> and the sum of <code>m</code> observations can be calculated, which in turn can help us get the sum <code>t</code> of <code>n</code> missing observations. If <code>t</code> is larger than <code>6 * n</code> or smaller than <code>n</code>, there is no possible answer, otherwise, we try to assign the values of these <code>n</code> observations as evenly as possible, so we initially distribute <code>t / n</code> to each observation, and for the first <code>t % n</code> observations, we give them <code>1</code> more. </p>
