@@ -34,7 +34,7 @@
 </ul>
 
 
-## Solution:
+## Solution1:
 
 <strong>Logical Thinking</strong>
 <p>Traverse the whole array backward, for each index <code>i</code>, check whether the last index is reachable through one jump from it, if not, find the index within its jump length with the minimum number jumps to the last index and plus one.</p>
@@ -69,6 +69,40 @@ public:
             }
         }
         return num[0];
+    }
+};
+```
+
+
+## Solution2:
+
+<strong>Logical Thinking</strong>
+<p>Traverse the whole array, we need to keep the maximum index we can reach with the current number of jumps <code>j</code>, noted as <code>max_idx_cur</code>, for each new index <code>i</code>, if it is within the reachable range of <code>max_idx_cur</code>, update the maximum index we can reach if we jump from <code>i</code>, noted as <code>max_idx_nxt</code>, i.e. we also know the maximum range with <code>j + 1</code> jumps. If <code>i == max_idx_cur</code>, we have to increase the number of jumps and assign <code>max_idx_nxt</code> to <code>max_idx_cur</code>.</p>
+
+
+<strong>C++</strong>
+
+```
+//  Topic   ：45. Jump Game II (https://leetcode.com/problems/jump-game-ii/)
+//  Author  : YCX
+//  Time    : O(N)
+//  Space   : O(1)
+
+
+class Solution {
+public:
+    int jump(vector<int>& nums) {
+        int n = nums.size(), max_idx_nxt = 0, max_idx_cur = 0, ans = 0;
+        for (int i = 0; i < n - 1; i++)
+        {
+            max_idx_nxt = max<int>(max_idx_nxt, i + nums[i]);
+            if (i == max_idx_cur)
+            {
+                ans++;
+                max_idx_cur = max_idx_nxt;
+            }
+        }
+        return ans;
     }
 };
 ```
