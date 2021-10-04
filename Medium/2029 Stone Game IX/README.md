@@ -1,86 +1,65 @@
-# 2028. Find Missing Observations
+# [2029. Stone Game IX](https://leetcode.com/problems/stone-game-ix/)
 
 
 ## Description: 
 
-<p>You have observations of <code>n + m</code> <strong>6-sided</strong> dice rolls with each face numbered from <code>1</code> to <code>6</code>. <code>n</code> of the observations went missing, and you only have the observations of <code>m</code> rolls. Fortunately, you have also calculated the <strong>average value</strong> of the <code>n + m</code> rolls.</p>
-<p>You are given an integer array <code>rolls</code> of length <code>m</code> where <code>rolls[i]</code> is the value of the <code>i<sup>th</sup></code> observation. You are also given the two integers <code>mean</code> and <code>n</code>.</p>
-<p>Return <em>an array of length <code>n</code> containing the missing observations such that the <strong>average value</strong> of the <code>n + m</code> rolls is <strong>exactly</strong> <code>mean</code>.</em> If there are multiple valid answers, return <em>any of them</em>. If no such array exists, return <em>an empty array</em>.</p>
-<p>The <strong>average value</strong> of a set of <code>k</code> numbers is the sum of the numbers divided by <code>k</code>.</p>
-<p>Note that <code>mean</code> is an integer, so the sum of the <code>n + m</code> rolls should be divisible by <code>n + m</code>.</p>
+<p>Alice and Bob continue their games with stones. There is a row of <code>n</code> stones, and each stone has an associated value. You are given an integer array <code>stones</code>, where <code>stones[i]</code> is the <strong>value</strong> of the <code>i<sup>th</sup></code> stone.</p>
+
+<p>Alice and Bob take turns, with <strong>Alice</strong> starting first. On each turn, the player may remove any stone from <code>stones</code>. The player who removes a stone <strong>loses</strong> if the <strong>sum</strong> of the values of <strong>all removed stones</strong> is divisible by <code>3</code>. Bob will win automatically if there are no remaining stones (even if it is Alice's turn).</p>
+
+<p>Assuming both players play <strong>optimally</strong>, return <em><code>true</code> if Alice wins and <code>false</code> if Bob wins.</em></p>
 
 
 ## Examples:
 
 <strong>Example 1:</strong>
 <pre>
-<strong>Input:</strong> rolls = [3,2,4,3], mean = 4, n = 2
-<strong>Output:</strong> [6,6]
-<strong>Explanation:</strong> The mean of all n + m rolls is (3 + 2 + 4 + 3 + 6 + 6) / 6 = 4.
+<strong>Input:</strong> stones = [2,1]
+<strong>Output:</strong> true
+<strong>Explanation:</strong> The game will be played as follows:
+- Turn 1: Alice can remove either stone.
+- Turn 2: Bob removes the remaining stone. 
+The sum of the removed stones is 1 + 2 = 3 and is divisible by 3. Therefore, Bob loses and Alice wins the game.
 </pre>
 
 <strong>Example 2:</strong>
 <pre>
-<strong>Input:</strong> rolls = [1,5,6], mean = 3, n = 4
-<strong>Output:</strong> [2,3,2,2]
-<strong>Explanation:</strong> The mean of all n + m rolls is (1 + 5 + 6 + 2 + 3 + 2 + 2) / 7 = 3.
+<strong>Input:</strong> stones = [2]
+<strong>Output:</strong> false
+<strong>Explanation:</strong> Alice will remove the only stone, and the sum of the values on the removed stones is 2. 
+Since all the stones are removed and the sum of values is not divisible by 3, Bob wins the game.
 </pre>
 
 <strong>Example 3:</strong>
 <pre>
-<strong>Input:</strong> rolls = [1,2,3,4], mean = 6, n = 4
-<strong>Output:</strong> []
-<strong>Explanation:</strong> It is impossible for the mean to be 6 no matter what the 4 missing rolls are.
-</pre>
-
-<strong>Example 4:</strong>
-<pre>
-<strong>Input:</strong> rolls = [1], mean = 3, n = 1
-<strong>Output:</strong> [5]
-<strong>Explanation:</strong> The mean of all n + m rolls is (1 + 5) / 2 = 3.
+<strong>Input:</strong> stones = [5,1,2,4,3]
+<strong>Output:</strong> false
+<strong>Explanation:</strong> Bob will always win. One possible way for Bob to win is shown below:
+- Turn 1: Alice can remove the second stone with value 1. Sum of removed stones = 1.
+- Turn 2: Bob removes the fifth stone with value 3. Sum of removed stones = 1 + 3 = 4.
+- Turn 3: Alices removes the fourth stone with value 4. Sum of removed stones = 1 + 3 + 4 = 8.
+- Turn 4: Bob removes the third stone with value 2. Sum of removed stones = 1 + 3 + 4 + 2 = 10.
+- Turn 5: Alice removes the first stone with value 5. Sum of removed stones = 1 + 3 + 4 + 2 + 5 = 15.
+Alice loses the game because the sum of the removed stones (15) is divisible by 3. Bob wins the game.
 </pre>
 
 
 ## Constraints:
 
 <ul>
-  <li><code>m == rolls.length</code></li>
-  <li><code>1 &lt;= n, m &lt;= 10<sup>5</sup></code></li>
-  <li><code>1 &lt;= rolls[i], mean &lt;= 6</code></li>told
+  <li><code>1 &lt;= stones.length &lt;= 10<sup>5</sup></code></li>
+  <li><code>1 &lt;= stones[i] &lt;= 10<sup>4</sup></code></li>told
 </ul>
 
 
 ## Solution: 
 
 <strong>Logical Thinking</strong>
-<p>First, from <code>m</code>, <code>n</code> and <code>mean</code>, we can get the total sum of all rolls <code>mean * (m + n)</code>. We are also told the array <code>rolls</code> and the sum of <code>m</code> observations can be calculated, which in turn can help us get the sum <code>t</code> of <code>n</code> missing observations. If <code>t</code> is larger than <code>6 * n</code> or smaller than <code>n</code>, there is no possible answer, otherwise, we try to assign the values of these <code>n</code> observations as evenly as possible, so we initially distribute <code>t / n</code> to each observation, and for the first <code>t % n</code> observations, we give them <code>1</code> more. </p>
+<p> </p>
 
 
 <strong>C++</strong>
 
 ```
-//  Topic   ：2028. Find Missing Observations (https://leetcode.com/problems/find-missing-observations/)
-//  Author  : YCX
-//  Time    : O(N)
-//  Space   : O(N)
 
-class Solution {
-public:
-    vector<int> missingRolls(vector<int>& rolls, int mean, int n) {
-        int m = rolls.size(), t = mean * (m + n);
-        for (int i = 0; i < m; i++)
-            t -= rolls[i];
-        if (t > n * 6 || t < n)
-            return {};
-        vector<int> ans (n, 0);
-        int d = t / n, r = t % n;
-        for (int i = 0; i < n; i++)
-        {
-            ans[i] = d;
-            if (i < r)
-                ans[i] += 1;
-        }
-        return ans;
-    }
-};
 ```
