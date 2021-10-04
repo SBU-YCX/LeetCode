@@ -32,7 +32,7 @@
 </ul>
 
 
-## Solution1:
+## Solution:
 
 <strong>Logical Thinking</strong>
 <p>We only need to keep a record of the maximum index we can arrive. For each index <code>i</code> in the array, we check whether <code>i</code> is reachable from previous jumps and update the maximum length we can get. </p>
