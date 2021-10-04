@@ -3,7 +3,7 @@
 
 | # | Title | Difficulty | Topics | Solution | 
 | :---- | :--- | :---- | :---- | :----: |
-| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | ![Medium](https://via.placeholder.com/15/FFD306/000000?text=+) Medium &nbsp; | <code>DP</code> | [Solution](https://github.com/SBU-YCX/LeetCode/tree/main/Medium/0062%20Unique%20Paths) |
+| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | ![Medium](https://via.placeholder.com/15/FFD306/000000?text=+) Medium &nbsp;| <code>DP</code> | [Solution](https://github.com/SBU-YCX/LeetCode/tree/main/Medium/0062%20Unique%20Paths) |
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | ![Medium](https://via.placeholder.com/15/FFD306/000000?text=+) Medium | <code>DP</code> | [Solution](https://github.com/SBU-YCX/LeetCode/tree/main/Medium/0064%20Minimum%20Path%20Sum) |
 | 463 | [Island Perimeter](https://leetcode.com/problems/island-perimeter/) | ![Easy](https://via.placeholder.com/15/02DF82/000000?text=+) Easy | <code>DFS</code> <code>BFS</code> | [Solution](https://github.com/SBU-YCX/LeetCode/tree/main/Easy/0463%20Island%20Perimeter) |
 | 562 | [Longest Line of Consecutive One in Matrix](https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/) | ![Medium](https://via.placeholder.com/15/FFD306/000000?text=+) Medium | <code>DP</code> | [Solution](https://github.com/SBU-YCX/LeetCode/tree/main/Medium/0562%20Longest%20Line%20of%20Consecutive%20One%20in%20Matrix) |
