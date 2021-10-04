@@ -1,6 +1,6 @@
 //  Topic   : 463. Island Perimeter (https://leetcode.com/problems/island-perimeter/)
 //  Author  : YCX
-//  Time    : O(N^2)
+//  Time    : O(M * N)
 //  Space   : O(1)
 
 class Solution {
