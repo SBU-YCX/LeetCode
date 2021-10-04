@@ -3,6 +3,8 @@
 
 | # | Title | Difficulty | Topics | Solution | 
 | :---- | :--- | :---- | :---- | :----: |
+| 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | ![Medium](https://via.placeholder.com/15/FFD306/000000?text=+) Medium | <code>DP</code> | [Solution](https://github.com/SBU-YCX/LeetCode/tree/main/Medium/0045%20Jump%20Game%20II) |
+| 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | ![Medium](https://via.placeholder.com/15/FFD306/000000?text=+) Medium | <code>DP</code> | [Solution](https://github.com/SBU-YCX/LeetCode/tree/main/Medium/0055%20Jump%20Game) |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | ![Medium](https://via.placeholder.com/15/FFD306/000000?text=+) Medium | <code>DP</code> | [Solution](https://github.com/SBU-YCX/LeetCode/tree/main/Medium/0062%20Unique%20Paths) |
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | ![Medium](https://via.placeholder.com/15/FFD306/000000?text=+) Medium | <code>DP</code> | [Solution](https://github.com/SBU-YCX/LeetCode/tree/main/Medium/0064%20Minimum%20Path%20Sum) |
 | 463 | [Island Perimeter](https://leetcode.com/problems/island-perimeter/) | ![Easy](https://via.placeholder.com/15/02DF82/000000?text=+) Easy | <code>DFS</code> <code>BFS</code> | [Solution](https://github.com/SBU-YCX/LeetCode/tree/main/Easy/0463%20Island%20Perimeter) |
