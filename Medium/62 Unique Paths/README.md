@@ -1,4 +1,4 @@
-# [0062. Unique Paths](https://leetcode.com/problems/unique-paths/)
+# [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
 
 
 ## Description:
