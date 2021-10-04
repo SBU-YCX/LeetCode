@@ -68,11 +68,11 @@ public:
                 {
                     if (i == 0 || i > 0 && grid[i - 1][j] == 0)
                         ans += 1;
-                    if (i == grid.size() - 1 || i < grid.size() - 1 && grid[i + 1][j] == 0)
+                    if (i == m || i < m - 1 && grid[i + 1][j] == 0)
                         ans += 1;
                     if (j == 0 || j > 0 && grid[i][j - 1] == 0)
                         ans += 1;
-                    if (j == grid[0].size() - 1 || j < grid[0].size() - 1 && grid[i][j + 1] == 0)
+                    if (j == n || j < n && grid[i][j + 1] == 0)
                         ans += 1;
                 }
             }
