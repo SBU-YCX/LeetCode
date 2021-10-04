@@ -43,7 +43,7 @@
 </ul>
 
 
-## Solution:
+## Solution1:
 
 <strong>Logical Thinking</strong>
 <p>Just traverse the whole matrix, if there is an island, check whether its surrounding cells are also islands.</p>
@@ -54,7 +54,7 @@
 ```
 //  Topic   : 463. Island Perimeter (https://leetcode.com/problems/island-perimeter/)
 //  Author  : YCX
-//  Time    : O(N^2)
+//  Time    : O(M * N)
 //  Space   : O(1)
 
 class Solution {
@@ -76,6 +76,102 @@ public:
                         ans += 1;
                 }
             }
+        return ans;
+    }
+};
+```
+
+
+## Solution2:
+
+<strong>Logical Thinking</strong>
+<p>Since there is only one island, we can also use BFS or DFS to solve this problem.</p>
+
+
+<strong>C++</strong>
+
+```
+//  Topic   : 463. Island Perimeter (https://leetcode.com/problems/island-perimeter/)
+//  Author  : YCX
+//  Time    : O(M * N) - Worst, O(K) - Best [K is the number of lands]
+//  Space   : O(M * N)
+
+class Solution {
+public:
+    int islandPerimeter(vector<vector<int>>& grid) {
+        int ans = 0, m = grid.size(), n = grid[0].size();
+        bool flag = false;
+        vector<vector<int>> visited(m, vector<int>(n, 0));
+        queue<pair<int, int>> q;
+        for (int i = 0; i < m; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                if (grid[i][j]  == 1)
+                {
+                    q.push({i, j});
+                    visited[i][j] = 1;
+                    while (!q.empty())
+                    {
+                        int x = q.front().first, y = q.front().second;
+                        q.pop();
+                        if (x == 0)
+                            ans += 1;
+                        else if (x > 0)
+                        {
+                            if (grid[x - 1][y] == 0)
+                                ans += 1;
+                            else if (visited[x - 1][y] == 0)
+                            {
+                                visited[x - 1][y] = 1;
+                                q.push({x - 1, y});
+                            }
+                        }
+                        if (x == m - 1)
+                            ans += 1;
+                        else if (x < m - 1)
+                        {
+                            if (grid[x + 1][y] == 0)
+                                ans += 1;
+                            else if (visited[x + 1][y] == 0)
+                            {
+                                visited[x + 1][y] = 1;
+                                q.push({x + 1, y});
+                            }
+                        }
+                        if (y == 0)
+                            ans += 1;
+                        else if (y > 0)
+                        {
+                            if (grid[x][y - 1] == 0)
+                                ans += 1;
+                            else if (visited[x][y - 1] == 0)
+                            {
+                                visited[x][y - 1] = 1;
+                                q.push({x, y - 1});
+                            }
+                        }
+                        
+                        if (y == n - 1)
+                            ans += 1;
+                        else if (y < n - 1)
+                        {
+                            if (grid[x][y + 1] == 0)
+                                ans += 1;
+                            else if (visited[x][y + 1] == 0)
+                            {
+                                visited[x][y + 1] = 1;
+                                q.push({x, y + 1});
+                            }
+                        }
+                    }
+                    flag = true;
+                    break;
+                }
+            }
+            if (flag)
+                break;
+        }
         return ans;
     }
 };
