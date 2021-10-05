@@ -84,7 +84,7 @@ private:
 
 <strong>Logical Thinking</strong>
 <p>When <code>k</code> is small and <code>n</code> is large, we will waste a lot of time counting them one by one, instead, we can let Friend <code>k</code>, <code>2 * k</code>, ..., <code><lfloor>n / k<rfloor> * k</code> leave at one step until the remaining number of friends is smaller than <code>k</code>, formally:</p>
-```latex
+```katex
 f[n] = 
 \begin{cases} 
 0& \text{n == 1} \\ 
