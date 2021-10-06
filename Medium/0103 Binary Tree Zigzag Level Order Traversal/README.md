@@ -9,7 +9,7 @@
 ## Examples:
 
 <strong>Example 1:</strong>
-<p>![ex](https://assets.leetcode.com/uploads/2021/02/19/tree1.jpg)</p>
+<br/>![ex](https://assets.leetcode.com/uploads/2021/02/19/tree1.jpg)</br>
 <pre>
 <strong>Input:</strong> root = [3,9,20,null,null,15,7]
 <strong>Output:</strong> [[3],[20,9],[15,7]]
