@@ -10,16 +10,15 @@
 ## Examples:
 
 <strong>Example 1:</strong>
-<p>![ex1.1](https://assets.leetcode.com/uploads/2021/02/18/btree1.jpg)</p>
+<br/>![ex1.1](https://assets.leetcode.com/uploads/2021/02/18/btree1.jpg) &nbsp; ![ex1.2](https://assets.leetcode.com/uploads/2021/02/18/btree2.jpg)</br>
 <pre>
 <strong>Input:</strong> nums = [-10,-3,0,5,9]
 <strong>Output:</strong> [0,-3,9,-10,null,5]
-<strong>Explanation:</strong> [0,-10,5,null,-3,null,9] is also accepted:
-<p>![ex1.2](https://assets.leetcode.com/uploads/2021/02/18/btree2.jpg)</p>
+<strong>Explanation:</strong> [0,-10,5,null,-3,null,9] is also accepted
 </pre>
 
 <strong>Example 2:</strong>
-<p>![ex2](https://assets.leetcode.com/uploads/2021/02/18/btree.jpg)</p>
+<br/>![ex2](https://assets.leetcode.com/uploads/2021/02/18/btree.jpg)</br>
 <pre>
 <strong>Input:</strong> nums = [1,3]
 <strong>Output:</strong> [3,1]
