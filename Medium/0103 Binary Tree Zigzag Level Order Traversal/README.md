@@ -50,7 +50,7 @@
 //  Topic   ：103. Binary Tree Zigzag Level Order Traversal (https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
 //  Author  : YCX
 //  Time    : O(N)
-//  Space   : O(H)
+//  Space   : O(H) [H is the depth of the tree]
 
 
 class Solution {
