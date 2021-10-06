@@ -23,7 +23,7 @@
 <strong>Explanation:</strong> 
 </pre>
 
-<strong>Example 2:</strong>
+<strong>Example 3:</strong>
 <pre>
 <strong>Input:</strong> root = []
 <strong>Output:</strong> []
