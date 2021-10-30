@@ -8,7 +8,7 @@
 <ul>
     <li>For example, <code>s = "||**||**|*"</code>, and a query <code>[3, 8]</code> denotes the substring <code>"*||**|"</code>. The number of plates between candles in this substring is <code>2</code>, as each of the two plates has at least one candle <strong>in the substring</strong> to its left <strong>and</strong> right.</li>
 </ul>
-<p>Return an integer array <code>answer</code> where <code>answer[i]</code> is the answer to the <code>i<sup>th</sup></code> query.</p>
+<p>Return <em>an integer array <code>answer</code> where <code>answer[i]</code> is the answer to the <code>i<sup>th</sup></code> query.</em></p>
 
 
 ## Examples:
@@ -48,7 +48,7 @@
 ## Solution:
 
 <strong>Logical Thinking</strong>
-<p>Firstly, <strong>sort</strong> <code>events</code> by their start times in an increasing order. Then for each event <code>i</code>, we check whether we can get the maximum sum by attending it. So, we need to find the maximum value <code>maxv</code> of the events on the left side of it which has no conflict with it, i.e. end time smaller than the start time of current event. We can use a <strong>heap</strong> to keep the events up to now by their end times increasing.</p>
+<p>For each query <code>q</code> in <code>queries</code>, we need to find the nearest candle <code>i</code> on the right of the start index <code>q[0]</code> and the nearest candle <code>j</code> on the left of the end index <code>q[1]</code>, then the answer is the distance between these two candles minus the number of candles between them, i.e. <code>j - i + 1 - nc</code>. If we iterate to find the candles for each query, we will get <strong>TLE</strong>, instead, like <strong>prefix sum</strong>, we can go through the input forward and backward and keep the positions of the target candles of each index <code>i</code> in advance in <code>prefix[i]</code>(nearest left candle) and <code>suffix[i]</code>(nearest right candle).</p>
 
  
 <strong>C++</strong>
