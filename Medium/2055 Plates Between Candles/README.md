@@ -3,7 +3,7 @@
 
 ## Description:
 
-<p>There is a long table with a line of plates and candles arranged on top of it. You are given a <strong>0-indexed</strong> string s consisting of characters <code>'\ast'</code> and <code>'\mid'</code> only, where a <code>'\ast'</code> represents a <strong>plate</strong> and a '\mid' represents a <strong>candle</strong>.</p>
+<p>There is a long table with a line of plates and candles arranged on top of it. You are given a <strong>0-indexed</strong> string s consisting of characters <code>'*'</code> and <code>'|'</code> only, where a <code>'*'</code> represents a <strong>plate</strong> and a <code>''</code> represents a <strong>candle</strong>.</p>
 <p>You are also given a <strong>0-indexed</strong> 2D integer array queries where queries[i] = [lefti, righti] denotes the <strong>substring</strong> s[lefti...righti] (<strong>inclusive</strong>). For each query, you need to find the number of plates <strong>between candles</strong> that are <strong>in the substring</strong>. A plate is considered <strong>between candles</strong> if there is at least one candle to its left <strong>and</strong> at least one candle to its right <strong>in the substring</strong>.</p>
 <ul>
     <li>For example, s = "||**||**|*", and a query [3, 8] denotes the substring "*||**|". The number of plates between candles in this substring is 2, as each of the two plates has at least one candle <strong>in the substring</strong> to its left <strong>and</strong> right.</li>
