@@ -1,6 +1,6 @@
 # LeetCode
 
-This is my LeetCode Record
+This is my LeetCode Record. [Paused]
 
 | # | Title | Difficulty | Topics | Solution | 
 | :---- | :--- | :---- | :---- | :----: |
