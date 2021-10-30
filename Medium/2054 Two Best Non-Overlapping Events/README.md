@@ -48,7 +48,7 @@
 ## Solution:
 
 <strong>Logical Thinking</strong>
-<p>Firstly, <strong>sort</strong> <code>events</code> by their start times in an increasing order. Then for each event, we check whether we can get the maximum sum by attending it. So, we need to find the maximum value of the events on the left side of it which has no conflict with it, i.e. end time smaller than the start time of current event. We can use a <strong>heap</strong> to keep the events up to now by their end times increasing.</p>
+<p>Firstly, <strong>sort</strong> <code>events</code> by their start times in an increasing order. Then for each event <code>i</code>, we check whether we can get the maximum sum by attending it. So, we need to find the maximum value <code>maxv</code> of the events on the left side of it which has no conflict with it, i.e. end time smaller than the start time of current event. We can use a <strong>heap</strong> to keep the events up to now by their end times increasing.</p>
 
  
 <strong>C++</strong>
