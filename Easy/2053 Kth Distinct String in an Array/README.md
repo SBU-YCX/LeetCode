@@ -4,7 +4,7 @@
 ## Description:
 
 <p>A <strong>distinct string</strong> is a string that is present only <strong>once</strong> in an array.</p>
-<p>Given an array of strings <code>arr</code>, and an integer <code>k</code>, return the <code>k<sup>th</sup></code> <strong>distinct string</strong> present in arr. If there are <strong>fewer</strong> than <code>k</code> distinct strings, return an <strong>empty string</strong> <code>""</code>.</p>
+<p>Given an array of strings <code>arr</code>, and an integer <code>k</code>, return <em>the <code>k<sup>th</sup></code> <strong>distinct string</strong> present in arr.</em> If there are <strong>fewer</strong> than <code>k</code> distinct strings, return <em>an <strong>empty string</strong> <code>""</code>.</em></p>
 <p>Note that the strings are considered in the <strong>order in which they appear</strong> in the array.</p>
 
 
