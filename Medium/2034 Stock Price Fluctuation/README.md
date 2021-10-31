@@ -25,7 +25,6 @@
 ## Examples:
 
 <strong>Example 1:</strong>
-<br/>![ex1](https://assets.leetcode.com/uploads/2021/09/21/gridtxt.png)</br>
 <pre>
 <strong>Input:</strong>
 ["StockPrice", "update", "update", "current", "maximum", "update", "maximum", "update", "minimum"]
