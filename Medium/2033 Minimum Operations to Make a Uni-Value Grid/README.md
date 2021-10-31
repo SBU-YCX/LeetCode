@@ -53,7 +53,7 @@ A total of 4 operations were used.
 ## Solution:
 
 <strong>Logical Thinking</strong>
-<p>The problem is equivalent to ![Minimize the MAE](https://en.wikipedia.org/wiki/Mean_absolute_error). Reshape the matrix into an 1-D vector, <strong>sort</strong> it and the uni-value should be the <strong>median</strong> of the sorted vector.</p>
+<p>The problem is equivalent to [Minimize the MAE](https://en.wikipedia.org/wiki/Mean_absolute_error). Reshape the matrix into an 1-D vector, <strong>sort</strong> it and the uni-value should be the <strong>median</strong> of the sorted vector.</p>
 
  
 <strong>C++</strong>
