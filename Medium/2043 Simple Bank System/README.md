@@ -9,7 +9,7 @@
   <li>The given account number(s) are between <code>1</code> and <code>n</code>, and</li>
   <li>The amount of money withdrawn or transferred from is <strong>less than or equal to</strong> the balance of the account.</li>
 </ul>
-<p>Implement the <code>Bank class:</p>
+<p>Implement the <code>Bank</code> class:</p>
 <ul>
   <li><code>Bank(long[] balance)</code> Initializes the object with the <strong>0-indexed</strong> integer array <code>balance</code>.</li>
   <li><code>boolean transfer(int account1, int account2, long money)</code> Transfers <code>money</code> dollars from the account numbered <code>account1</code> to the account numbered <code>account2</code>. Return <code>true</code> if the transaction was successful, <code>false</code> otherwise.</li>
