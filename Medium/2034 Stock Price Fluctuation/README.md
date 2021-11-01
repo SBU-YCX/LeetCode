@@ -3,7 +3,7 @@
 
 ## Description:
 
-<p>You are given a stream of <strong>records</strong> about a particular stock. Each record contains a <strong>timestamp and the corresponding <strong>price of the stock at that timestamp.</p>
+<p>You are given a stream of <strong>records</strong> about a particular stock. Each record contains a <strong>timestamp</strong> and the corresponding <strong>price</strong> of the stock at that timestamp.</p>
 <p>Unfortunately due to the volatile nature of the stock market, the records do not come in order. Even worse, some records may be incorrect. Another record with the same timestamp may appear later in the stream <strong>correcting the price of the previous wrong record.</p>
 <p>Design an algorithm that:</p>
 <ul>
