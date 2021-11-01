@@ -51,7 +51,7 @@ The highest score is 2, and two nodes (node 0 and node 1) have the highest score
 ## Solution:
 
 <strong>Logical Thinking</strong>
-<p>From the given array <code>parents</code>, we can get the number of children of each node, then we can start from leaf nodes and use <strong>Breadth-First Search</strong> to calculate the number of nodes in each subtree and store them in an array <code>nodes</code>. Then, for each node <code>i</code>, the score is <code>(n - nodes[i]) * (nodes[child[i][j]] for j is i's child</code>, and the answer is the maximum one.</p>
+<p>From the given array <code>parents</code>, we can get the number of children of each node, then we can start from leaf nodes and use <strong>Breadth-First Search</strong> to calculate the number of nodes in each subtree and store them in an array <code>nodes</code>. Then, for each node <code>i</code>, the score is <code>(n - nodes[i]) * (nodes[child[i][j]] for j is i's child)</code>, and the answer is the maximum one.</p>
 
  
 <strong>C++</strong>
