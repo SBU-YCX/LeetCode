@@ -2,7 +2,7 @@
 
 This is my LeetCode Record. [Paused]
 
-| # | Title | Difficulty | Topics | Solution | 
+| # | Title | Difficulty&nbsp;&nbsp;&nbsp; | Topics | Solution | 
 | :---- | :--- | :---- | :---- | :----: |
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | ![Medium](https://via.placeholder.com/15/FFD306/000000?text=+) Medium | <code>DP</code> | [Solution](https://github.com/SBU-YCX/LeetCode/tree/main/Medium/0045%20Jump%20Game%20II) |
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | ![Medium](https://via.placeholder.com/15/FFD306/000000?text=+) Medium | <code>DP</code> | [Solution](https://github.com/SBU-YCX/LeetCode/tree/main/Medium/0055%20Jump%20Game) |
