@@ -77,6 +77,7 @@ There are a total of 237 vowels in all the substrings.
     <li>The substrings starting with this character -- <code>n - i</code></li>
     <li>The substrings starting with previous characters containing this character -- <code>arr[i - 1] - i</code></li>
 </ul>
+<p>now the time complexity is <code>O(n)</code>.</p>
 
 <strong>C++</strong>
 
