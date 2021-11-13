@@ -117,12 +117,4 @@ public:
 private: 
     int n, w, h, m, d;
 };
-
-/**
- * Your Robot object will be instantiated and called as such:
- * Robot* obj = new Robot(width, height);
- * obj->move(num);
- * vector<int> param_2 = obj->getPos();
- * string param_3 = obj->getDir();
- */
 ```
