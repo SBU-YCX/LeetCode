@@ -61,7 +61,7 @@ robot.getDir(); // return "West"
 ## Solution:
 
 <strong>Logical Thinking</strong>
-<p>We can see that the robot will repeatedly move along the boundaries of the grid, i.e. the position and direction will be the same every <code>2 * ((width - 1) + (height - 1))</code> steps. So, for the whole process, we only need to count the total number of steps <code>n</code> and decide the location and direction. Here, we divide the route into two part in further, left-top and right-bottom since they are symmetrical, and each half takes <code>m = width + height - 2</code> steps, if (n / m) is odd, the robot is on the left-top side, otherwise, right-bottom side. Then, we only need to compare <code>n % m</code> and <code>width</code> to see whether it is on the horizontal boundary or the vertical boundary. </p>
+<p>We can see that the robot will repeatedly move along the boundaries of the grid, i.e. the position and direction will be the same every <code>2 * ((width - 1) + (height - 1))</code> steps. So, for the whole process, we only need to count the total number of steps <code>n</code> and decide the location and direction. Here, we divide the route into two part in further, left-top and right-bottom since they are symmetrical, and each half takes <code>m = width + height - 2</code> steps, if <code>n / m</code> is odd, the robot is on the left-top side, otherwise, right-bottom side. Then, we only need to compare <code>n % m</code> and <code>width</code> to see whether it is on the horizontal boundary or the vertical boundary. </p>
 
 <p>Note: when the robot is at <code>(0, 0)</code>, there two cases for the direction: when it is the beginning, the direction is <code>"East"</code>; then when it comes back later, the direction is <code>"South"</code>.</p>
 
