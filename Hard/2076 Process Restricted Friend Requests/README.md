@@ -68,13 +68,15 @@ Request 3: Person 3 and person 4 cannot be friends since person 0 and person 1 w
 <strong>Logical Thinking</strong>
 <p>Since the friendship in this problem includes direct and indirect friends, we can use <strong>Union-Find</strong> to check the friendship between two people. Specifically, for each <code>requests[i]</code>, we find the groups of two people <code>requests[i][0]</code> and <code>requests[i][1]</code>, if the request is successful, these two groups merge into one, so we need to check whether any pair in <code>restrictions</code> share the same two groups, i.e. they will become friends.</p>
 
+<p><strong>Note:</strong> when using loops and key word <code>auto</code>, try to use <code>auto&</code>, since it is passed by reference and the original data is directly used. Otherwise, if using <code>auto</code>, only the value is passed and each time a new variable is created and assigned with the value of original data, it is time consuming.</p>
+
 
 <strong>C++</strong>
 
 ```
 // Topic     : 2076. Process Restricted Friend Requests (https://leetcode.com/problems/process-restricted-friend-requests/)
 // Author    : YCX
-// Time      : O(M * N * logN)
+// Time      : O(M * N)
 // Space     : O(N)
 
 
