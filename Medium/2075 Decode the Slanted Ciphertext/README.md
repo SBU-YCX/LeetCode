@@ -13,17 +13,17 @@
 
 <p><code>encodedText</code> is then formed by appending all characters of the matrix in a row-wise fashion.</p>
 
-<br/>![encoded](https://assets.leetcode.com/uploads/2021/11/07/exa12.png)</br>
+<br>![encoded](https://assets.leetcode.com/uploads/2021/11/07/exa12.png)
 
 <p>The characters in the blue cells are appended first to <code>encodedText</code>, then the red cells, and so on, and finally the yellow cells. The arrow indicates the order in which the cells are accessed.</p>
 
 <p>For example, if <code>originalText = "cipher"</code> and <code>rows = 3</code>, then we encode it in the following manner:</p>
 
-<br/>![ex1](https://assets.leetcode.com/uploads/2021/10/25/desc2.png)</br>
+<br>![ex1](https://assets.leetcode.com/uploads/2021/10/25/desc2.png)
 
 <p>The blue arrows depict how <code>originalText</code> is placed in the matrix, and the red arrows denote the order in which <code>encodedText</code> is formed. In the above example, <code>encodedText = "ch ie pr"</code>.</p>
 
-<p>Given the encoded string <code>encodedText</code> and number of rows <code>rows, return <em>the original string <code>originalText</code>.</em></p>
+<p>Given the encoded string <code>encodedText</code> and number of rows <code>rows</code>, return <em>the original string <code>originalText</code>.</em></p>
 
 <p><strong>Note:</strong> <code>originalText</code> <strong>does not</strong> have any trailing spaces <code>' '</code>. The test cases are generated such that there is only one possible <code>originalText</code>.</p>
 
@@ -38,7 +38,7 @@
 </pre>
 
 <strong>Example 2:</strong>
-<br/>![ex2](https://assets.leetcode.com/uploads/2021/10/26/exam1.png)</br>
+<br>![ex2](https://assets.leetcode.com/uploads/2021/10/26/exam1.png)
 <pre>
 <strong>Input:</strong> encodedText = "iveo    eed   l te   olc", rows = 4
 <strong>Output:</strong> "i love leetcode"
@@ -47,7 +47,7 @@ The blue arrows show how we can find originalText from encodedText.
 </pre>
 
 <strong>Example 3:</strong>
-<br/>![ex3](https://assets.leetcode.com/uploads/2021/10/26/eg2.png)</br>
+<br>![ex3](https://assets.leetcode.com/uploads/2021/10/26/eg2.png)
 <pre>
 <strong>Input:</strong> encodedText = "coding", rows = 1
 <strong>Output:</strong> "coding"
@@ -55,7 +55,7 @@ The blue arrows show how we can find originalText from encodedText.
 </pre>
 
 <strong>Example 4:</strong>
-<br/>![ex4](https://assets.leetcode.com/uploads/2021/10/26/exam3.png)</br>
+<br>![ex4](https://assets.leetcode.com/uploads/2021/10/26/exam3.png)
 <pre>
 <strong>Input:</strong> encodedText = " b  ac", rows = 2
 <strong>Output:</strong> " abc"
