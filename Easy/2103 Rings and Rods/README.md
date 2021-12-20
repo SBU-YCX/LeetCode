@@ -3,14 +3,14 @@
 
 ## Description:
 
-<p>There are n rings and each ring is either red, green, or blue. The rings are distributed <strong>across ten rods</strong> labeled from 0 to 9.</p>
+<p>There are <code>n</code> rings and each ring is either red, green, or blue. The rings are distributed <strong>across ten rods</strong> labeled from <code>0</code> to <code>9</code>.</p>
 
-<p>You are given a string rings of length 2n that describes the n rings that are placed onto the rods. Every two characters in rings forms a <strong>color-position pair</strong> that is used to describe each ring where:</p>
+<p>You are given a string <code>rings</code> of length <code>2n</code> that describes the <code>n rings that are placed onto the rods. Every two characters in <code>rings</code> forms a <strong>color-position pair</strong> that is used to describe each ring where:</p>
 <ul>
-    <li>The <strong>first</strong> character of the ith pair denotes the ith ring's <strong>color</strong> ('R', 'G', 'B').</li>
-    <li>The <strong>second</strong> character of the ith pair denotes the <strong>rod</strong> that the ith ring is placed on ('0' to '9').</li>
+    <li>The <strong>first</strong> character of the <code>i<sup>th</sup></code> pair denotes the <code>i<sup>th</sup></code> ring's <strong>color</strong> (<code>'R'</code>, <code>'G'</code>, <code>'B'</code>).</li>
+    <li>The <strong>second</strong> character of the <code>i<sup>th</sup></code> pair denotes the <strong>rod</strong> that the <code>i<sup>th</sup></code> ring is placed on (<code>'0'</code> to <code>'9'</code>).</li>
 </ul>
-<p>For example, "R3G2B1" describes n == 3 rings: a red ring placed onto the rod labeled 3, a green ring placed onto the rod labeled 2, and a blue ring placed onto the rod labeled 1.</p>
+<p>For example, <code>"R3G2B1"</code> describes <code>n == 3</code> rings: a red ring placed onto the rod labeled 3, a green ring placed onto the rod labeled 2, and a blue ring placed onto the rod labeled 1.</p>
 
 <p>Return <em>the number of rods that have <strong>all three colors</strong> of rings on them.</em></p>
 
