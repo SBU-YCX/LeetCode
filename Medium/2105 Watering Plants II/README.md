@@ -12,7 +12,7 @@
   <li>Alice/Bob <strong>must</strong> water the plant if they have enough in their can to <strong>fully</strong> water it. Otherwise, they <strong>first</strong> refill their can (instantaneously) then water the plant.</li>
   <li>In case both Alice and Bob reach the same plant, the one with <strong>more</strong> water currently in his/her watering can should water this plant. If they have the same amount of water, then Alice should water this plant.</li>
 </ul>
-<p>Given a <strong>0-indexed</strong> integer array <code>plants</code> of <code>n</code> integers, where <code>plants[i]</code> is the amount of water the <code>i<sup>th</sup> plant needs, and two integers <code>capacityA</code> and <code>capacityB</code> representing the capacities of Alice's and Bob's watering cans respectively, return <em>the <strong>number of times</strong> they have to refill to water all the plants.</em></p>
+<p>Given a <strong>0-indexed</strong> integer array <code>plants</code> of <code>n</code> integers, where <code>plants[i]</code> is the amount of water the <code>i<sup>th</sup></code> plant needs, and two integers <code>capacityA</code> and <code>capacityB</code> representing the capacities of Alice's and Bob's watering cans respectively, return <em>the <strong>number of times</strong> they have to refill to water all the plants.</em></p>
 
 
 ## Examples:
