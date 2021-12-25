@@ -58,7 +58,7 @@ We can create "burger" since we have the ingredient "meat" and can create the in
 ## Solution:
 
 <strong>Logical Thinking</strong>
-<p>Actually, since every recipe can only be created with all the needed ingredients and the ingredients may contain other recipes, we can regard this problem as a <strong>topological order</strong> problem. Firstly, using a <strong>hash table</strong> to store each ingredient and all the recipes which need it. Then, a vector <code>degree</code> is used to indicate whether all the ingredients are obtained for each recipe. We push all the initial supplies into a queue <code>q</code>, for each item in the queue, decrese the degree of the its recipes, if the recipe's degree is <code>0</code>, push it into the queue. Continuously doing this until <code>q</code> is empty, record all the recipes which occurs in the queue.</p>
+<p>Actually, since every recipe can only be created with all the needed ingredients and the ingredients may contain other recipes, we can regard this problem as a <strong>topological order</strong> problem. Firstly, using a <strong>hash table</strong> to store each ingredient and all the recipes which need it. Then, a vector <code>degree</code> is used to indicate whether all the ingredients are obtained for each recipe. We push all the initial supplies into a <strong>queue</strong> <code>q</code>, for each item in the queue, decrese the degree of the its recipes, if the recipe's degree is <code>0</code>, push it into the queue. Continuously doing this until <code>q</code> is empty, record all the recipes which occurs in the queue.</p>
 
  
 <strong>C++</strong>
