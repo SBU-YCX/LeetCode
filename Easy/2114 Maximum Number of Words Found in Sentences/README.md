@@ -47,7 +47,7 @@ In this example, the second and third sentences (underlined) have the same numbe
 ## Solution:
 
 <strong>Logical Thinking</strong>
-<p>Since words are separated by a single space, we can just <strong>count</strong> the number of spaces <code>n<sub>spaces</sub></code>, and the number of words is <code>n<sub>spaces</sub> + 1</code>.</p>
+<p>Since words are separated by a single space, we can just <strong>count</strong> the number of spaces <code>n<sub>s</sub></code>, and the number of words is <code>n<sub>w</sub> = n<sub>s</sub> + 1</code>.</p>
 
 
 <strong>C++</strong>
