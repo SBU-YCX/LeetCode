@@ -51,7 +51,7 @@ Changing s[0] to either '(' or ')' will not make s valid.
 
 <ul>
     <li><code>n == s.length == locked.length</code></li>
-    <li>1 &lt;= n &lt;= 10<sup>5</sup></li>
+    <li><code>1 &lt;= n &lt;= 10<sup>5</sup></code></li>
     <li><code>s[i]</code> is either <code>'('</code> or <code>')'</code>.</li>
     <li><code>locked[i]</code> is either <code>'0'</code> or <code>'1'</code>.</li>
 </ul>
