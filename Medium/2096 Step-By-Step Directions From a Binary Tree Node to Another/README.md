@@ -50,7 +50,7 @@ The shortest path is: 2 → 1.
 ## Solution:
 
 <strong>Logical Thinking</strong>
-<p>For this <strong>tree</strong>-related problem, we actually need to find the lowest common ancestor of <code>s</code> and <code>t</code>. So, we can traverse the whole tree in <strong>post-order</strong> and store the nodes in paths to the root from <code>s</code> and <code>t</code> into two vectors <code>pts</code> and <code>ptd</code> respectively. Then, go through both vectors backward and ignore the same nodes in both of them.</p>
+<p>For this <strong>tree</strong>-related problem, we actually need to find the lowest common ancestor of <code>s</code> and <code>t</code>. So, we can traverse the whole tree in <strong>post-order</strong> and store the nodes in paths to the root from <code>s</code> and <code>t</code> into two vectors <code>pts</code> and <code>ptd</code> respectively. Then, go through both vectors backward and ignore the same nodes in both of them. After that, for each remaining element in <code>pts</code>, add an <code>'U'</code> to the answer, while for each remaining ones in <code>ptd</code>, add the corresponding character <code>'L'</code> or <code>'R'</code>.</p>
 
 
 <strong>C++</strong>
