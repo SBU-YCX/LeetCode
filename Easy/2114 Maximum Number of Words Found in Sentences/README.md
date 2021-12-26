@@ -36,8 +36,8 @@ In this example, the second and third sentences (underlined) have the same numbe
 ## Constraints:
 
 <ul>
-  <li><code>1 <= sentences.length <= 100</code></li>
-  <li><code>1 <= sentences[i].length <= 100</code></li>
+  <li><code>1 &lt;= sentences.length &lt;= 100</code></li>
+  <li><code>1 &lt;= sentences[i].length &lt;= 100</code></li>
   <li><code>sentences[i]</code> consists only of lowercase English letters and <code>' '</code> only.</li>
   <li><code>sentences[i]</code> does not have leading or trailing spaces.</li>
   <li>All the words in <code>sentences[i]</code> are separated by a single space.</li>
