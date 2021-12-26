@@ -58,7 +58,7 @@ Thus all 5 bombs are detonated.
 </ul>
 
 
-## Solution :
+## Solution:
 
 <strong>Logical Thinking</strong>
 <p>Firstly, create the directed graph by the relationship of the ditance of any pair of bombs and their ranges. Then, greedily check each bomb such that if we start from that bomb, how many bombs can be finally detonated. For the checking of each bomb, we can use <strong>Breadth-First Search</strong>.</p>
