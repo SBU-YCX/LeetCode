@@ -62,7 +62,7 @@ So, the total number of times they have to refill is 0.
 </ul>
 
 
-## Solution :
+## Solution:
 
 <strong>Logical Thinking</strong>
 <p>Just use <strong>Two Pointers</strong> and <strong>Simulate</strong> the whole process.</p>
