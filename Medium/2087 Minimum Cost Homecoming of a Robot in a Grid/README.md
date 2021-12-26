@@ -10,7 +10,7 @@
 <ul>
     <li>If the robot moves <strong>up</strong> or <strong>down</strong> into a cell whose <strong>row</strong> is <code>r</code>, then this move costs <code>rowCosts[r]</code>.</li>
     <li>If the robot moves <strong>left</strong> or <strong>right</strong> into a cell whose <strong>column</strong> is <code>c</code>, then this move costs <code>colCosts[c]</code>.</li>
-<ul>
+</ul>
 
 <p>Return <em>the <strong>minimum total cost</strong> for this robot to return home.</em></p>
 
