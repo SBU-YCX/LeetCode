@@ -34,7 +34,7 @@ No subsequence of nums with length 1 has an even sum.
 <ul>
     <li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
     <li><code>0 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
-    <li><code>1 &lt;= k &lt;= nums.length<code></li>
+    <li><code>1 &lt;= k &lt;= nums.length</code></li>
 </ul>
 
 
