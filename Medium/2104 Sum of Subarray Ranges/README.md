@@ -59,7 +59,7 @@ The sum of all subarray ranges of nums is 59.
 </ul>
 
 
-## Solution :
+## Solution:
 
 <strong>Logical Thinking</strong>
 <p>We can spllit the problem into two parts, the difference between sum of all maximums and sum of all minimums. For each subproblem, we can use <strong>Monotonic Stack</strong> twice (forward and backword) to find the interval that the value is a optimum (minimum or maximum), and in turn to find the number of subarrays within this interval.</p>
