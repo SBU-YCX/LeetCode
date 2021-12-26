@@ -14,7 +14,7 @@
     <li>There are no more instructions left to execute.</li>
 </ul>
 
-<p>Return <em>an array <code>answer</code> of length <code>m</code> where <code>answer[i]</code> is <strong>the number of instructions</strong> the robot can execute if the robot <strong>begins executing from</strong> the <code>i<sup>th</sup> instruction in <code>s</code>.</em></p>
+<p>Return <em>an array <code>answer</code> of length <code>m</code> where <code>answer[i]</code> is <strong>the number of instructions</strong> the robot can execute if the robot <strong>begins executing from</strong> the <code>i<sup>th</sup></code> instruction in <code>s</code>.</em></p>
 
 
 ## Examples:
