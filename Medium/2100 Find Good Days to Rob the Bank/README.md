@@ -63,7 +63,7 @@ Thus, no day is a good day to rob the bank, so return an empty list.
 </ul>
 
 
-## Solution 1 :
+## Solution:
 
 <strong>Logical Thinking</strong>
 <p>Going through the whole array twice (forward and backward), during each pass, using <strong>Two Pointers</strong> to find the longest interval which meets the requirement on one side for each element. Then we just need to check for each element whether the interval on its both sides longer than the given <code>time</code>.</p>
