@@ -76,7 +76,7 @@ Thus, people 0, 1, 2, and 3 know the secret after all the meetings.
 ## Solution:
 
 <strong>Logical Thinking</strong>
-<p>This is a special <code>graph</code> problem such that some edges will only appear after some time. To solve this problem, we can use <strong>breadth-first search</strong> to enumerate the whole graph and check the connectivity. Whenever a person <code>i</code> knows the secret at time <code>t</code>, he can only spread it to other people who have meetings later than <code>t</code> and push these people into the queue <code>spread</code>. We also need a <strong>heap</strong> to sort the people by the time they know the secret.</p>
+<p>This is a special <code>graph</code> problem such that some edges will only appear after some time. To solve this problem, we can use <strong>breadth-first search</strong> to enumerate the whole graph and check the connectivity. Whenever a person <code>i</code> knows the secret at time <code>t</code>, he can only spread it to other people who have meetings later than <code>t</code> and push these people into the queue <code>spread</code>. We also need <code>spread</code> to be a <strong>heap</strong> to sort the people by the time they know the secret.</p>
 
 
 <strong>C++</strong>
