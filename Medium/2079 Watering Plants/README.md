@@ -62,7 +62,7 @@ Steps needed = 1 + 1 + 2 + 2 + 3 + 3 + 4 + 4 + 5 + 5 + 6 + 6 + 7 = 49.
   <li><code>n == plants.length</code></li>
   <li><code>1 &lt;= n &lt;= 1000</code></li>
   <li><code>1 &lt;= plants[i] &lt;= 10<sup>6</sup></code></li>
-  <li><code>max(plants[i]) &lt;= capacity &lt;= 10<sup>9</sup></li>
+  <li><code>max(plants[i]) &lt;= capacity &lt;= 10<sup>9</sup></code></li>
 </ul>
 
 
