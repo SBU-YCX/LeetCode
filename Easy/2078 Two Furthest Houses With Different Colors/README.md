@@ -51,7 +51,7 @@ House 0 has color 0, and house 1 has color 1. The distance between them is abs(0
   <li><code>n == colors.length</code></li>
   <li><code>2 &lt;= n &lt;= 100</code></li>
   <li><code>0 &lt;= colors[i] &lt;= 100</code></li>
-  <li><code>Test data are generated such that <strong>at least</strong> two houses have different colors.</li>
+  <li>Test data are generated such that <strong>at least</strong> two houses have different colors.</li>
 </ul>
 
 
