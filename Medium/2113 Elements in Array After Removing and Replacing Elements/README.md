@@ -85,7 +85,7 @@ At minute 3, nums[0] does not exist.
 ```
 //  Topic   ：2113. Elements in Array After Removing and Replacing Elements (https://leetcode.com/problems/elements-in-array-after-removing-and-replacing-elements/)
 //  Author  : YCX
-//  Time    : O(M)
+//  Time    : O(N)
 //  Space   : O(1)
 
 
