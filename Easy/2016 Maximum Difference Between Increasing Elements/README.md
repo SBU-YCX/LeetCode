@@ -48,7 +48,7 @@ The maximum difference occurs with i = 0 and j = 3, nums[j] - nums[i] = 10 - 1 =
 ## Solution:
 
 <strong>Logical Thinking</strong>
-<p>Go through the whole array from left to right, using a variable <code>minv</code> to store the minimum value, for each element <code>i</code>, update the maximum difference <code>ans = max(ans, nums[i] - minv)</int> as well as the minimum value <code>minv = min(minv, nums[i])</int>.</p>
+<p>Go through the whole array from left to right, using a variable <code>minv</code> to store the minimum value, for each element <code>i</code>, update the maximum difference <code>ans = max(ans, nums[i] - minv)</code> as well as the minimum value <code>minv = min(minv, nums[i])</code>.</p>
 
 
 <strong>C++</strong>
