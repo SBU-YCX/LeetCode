@@ -57,7 +57,7 @@ Out of all these positions, -1 is the smallest, so return it.
     <li><code>1 &lt;= lights.length &lt;= 10<sup>5</sup></code></li>
     <li><code>lights[i].length == 2</code></li>
     <li><code>-10<sup>8</sup> &lt;= position<sub>i</sub> &lt;= 10<sup>8</sup></code></li>
-    <li><code>0 &lt;= range<sub>i</sub> &lt;= 10<sup>8</sup></li>
+    <li><code>0 &lt;= range<sub>i</sub> &lt;= 10<sup>8</sup></code></li>
 </ul>
 
 
