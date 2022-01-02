@@ -11,7 +11,7 @@
 
 <p>A friend request is <strong>successful</strong> if <code>u<sub>j</sub></code> and <code>v<sub>j</sub></code> can be <strong>friends</strong>. Each friend request is processed in the given order (i.e., <code>requests[j]</code> occurs before <code>requests[j + 1]</code>), and upon a successful request, <code>u<sub>j</sub></code> and <code>v<sub>j</sub></code> <strong>become direct friends</strong> for all future friend requests.</p>
 
-<p>Return <em>a <strong>boolean array</strong> <code>result, where each <code>result[j]</code> is <code>true</code> if the <code>j<sup>th</sup></code> friend request is <strong>successful</strong> or <code>false</code> if it is not.</em></p>
+<p>Return <em>a <strong>boolean array</strong> <code>result</code>, where each <code>result[j]</code> is <code>true</code> if the <code>j<sup>th</sup></code> friend request is <strong>successful</strong> or <code>false</code> if it is not.</em></p>
 
 <p><strong>Note:</strong> If <code>u<sub>j</sub></code> and <code>v<sub>j</sub></code> are already direct friends, the request is still <strong>successful</strong>.</p>
 
