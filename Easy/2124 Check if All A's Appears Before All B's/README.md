@@ -46,7 +46,7 @@ There are no 'a's, hence, every 'a' appears before every 'b' and we return true.
 ## Solution:
 
 <strong>Logical Thinking</strong>
-<p>Find the position <code>pa</code> of the left-most <code>'b'</code> and the position <code>pb</code> of the right-most <code>'a'</code>, we need <code>pa &lt; pb</code>.</p>
+<p>Find the position <code>pa</code> of the left-most <code>'b'</code> and the position <code>pb</code> of the right-most <code>'a'</code>, we need <code>pa &lt; pb</code>. There are two special cases: <code>pa == -1</code> or <code>pb == -1</code>, i.e. no <code>'a'</code> or no <code>'b'</code>.</p>
 
 
 <strong>C++</strong>
