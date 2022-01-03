@@ -98,7 +98,7 @@ It is impossible.
 
 ```
 // Topic     : 2060. Check if an Original String Exists Given Two Encoded Strings (https://leetcode.com/problems/check-if-an-original-string-exists-given-two-encoded-strings/)
-// Author    : YCX (https://github.com/SBU-YCX/LeetCode/tree/main/Hard/2127%20Maximum%20Employees%20to%20Be%20Invited%20to%20a%20Meeting)
+// Author    : YCX (https://github.com/SBU-YCX/LeetCode/tree/main/Hard/2060%20Check%20if%20an%20Original%20String%20Exists%20Given%20Two%20Encoded%20Strings)
 // Time      : O(M * N * 2000) 
 // Space     : O(M * N * 2000)
 
