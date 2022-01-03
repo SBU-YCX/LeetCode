@@ -64,7 +64,7 @@ There are four ways to partition the array.
 
 ```
 // Topic     : 2025. Maximum Number of Ways to Partition an Array (https://leetcode.com/problems/maximum-number-of-ways-to-partition-an-array/)
-// Author    : YCX
+// Author    : YCX (https://github.com/SBU-YCX/LeetCode/tree/main/Hard/2025%20Maximum%20Number%20of%20Ways%20to%20Partition%20an%20Array)
 // Time      : O(N)
 // Space     : O(N)
 
