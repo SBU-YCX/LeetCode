@@ -75,7 +75,7 @@ The 17 smallest 7-mirror numbers are:
 
 ```
 // Topic     : 2081. Sum of k-Mirror Numbers (https://leetcode.com/problems/sum-of-k-mirror-numbers/)
-// Author    : YCX
+// Author    : YCX (https://github.com/SBU-YCX/LeetCode/tree/main/Hard/2081%20Sum%20of%20k-Mirror%20Numbers)
 // Time      : O(F(N)) where F(N) is the number of all palindrome numbers of base 10 smaller than the nth k-mirror number
 // Space     : O(F(N))
 
