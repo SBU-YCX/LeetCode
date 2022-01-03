@@ -56,7 +56,7 @@ The absolute difference between the sums of the arrays is abs((2 + 4 + -9) - (-1
 
 ```
 // Topic     : 2035. Partition Array Into Two Arrays to Minimize Sum Difference (https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/)
-// Author    : YCX (https://github.com/SBU-YCX/LeetCode/tree/main/Hard/2030%20Smallest%20K-Length%20Subsequence%20With%20Occurrences%20of%20a%20Letter)
+// Author    : YCX (https://github.com/SBU-YCX/LeetCode/tree/main/Hard/2035%20Partition%20Array%20Into%20Two%20Arrays%20to%20Minimize%20Sum%20Difference)
 // Time      : O(2^Nlog(2^N))
 // Space     : O(2^N)
 
