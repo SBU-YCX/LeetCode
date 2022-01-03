@@ -77,7 +77,7 @@ The maximum number of employees that can be invited to the meeting is 4.
 
 ```
 // Topic     : 2127. Maximum Employees to Be Invited to a Meeting (https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/)
-// Author    : YCX (https://github.com/SBU-YCX/LeetCode/tree/main/Hard/2071%20Maximum%20Number%20of%20Tasks%20You%20Can%20Assign)
+// Author    : YCX (https://github.com/SBU-YCX/LeetCode/tree/main/Hard/2127%20Maximum%20Employees%20to%20Be%20Invited%20to%20a%20Meeting)
 // Time      : O(N) 
 // Space     : O(N)
 
