@@ -78,7 +78,7 @@ The last pill is not given because it will not make any worker strong enough for
 
 ```
 // Topic     : 2071. Maximum Number of Tasks You Can Assign (https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/)
-// Author    : YCX (https://github.com/SBU-YCX/LeetCode/tree/main/Hard/2081%20Sum%20of%20k-Mirror%20Numbers)
+// Author    : YCX (https://github.com/SBU-YCX/LeetCode/tree/main/Hard/2071%20Maximum%20Number%20of%20Tasks%20You%20Can%20Assign)
 // Time      : O(logK * KlogK) where K = min(M, N) 
 // Space     : O(K)
 
