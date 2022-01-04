@@ -64,7 +64,7 @@ The 3rd smallest product is -6.
 
 ```
 // Topic     : 2040. Kth Smallest Product of Two Sorted Arrays (https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/)
-// Author    : YCX 
+// Author    : YCX (https://github.com/SBU-YCX/LeetCode/tree/main/Hard/2040%20Kth%20Smallest%20Product%20of%20Two%20Sorted%20Arrays)
 // Time      : O((M + N)log(10^10))
 // Space     : O(M + N)
 
