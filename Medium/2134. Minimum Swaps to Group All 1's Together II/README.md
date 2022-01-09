@@ -55,14 +55,7 @@ Thus, the minimum number of swaps required is 0.
 ## Solution:
 
 <strong>Logical Thinking</strong>
-<p>From the description, we know the following things</p>
-
-<ul>
-    <li>Because of the rearrange operation, the order of the letters doesn't matter, so we can use the frequencies of letters to represent a word</li>
-    <li>Since no letter occurs more than once, we can further simplify using <strong>bitmask</strong> to represent it</li>
-</ul>
-
-<p>So, we convert all the words to their bitmask representations and save those of start words into a <strong>set</strong>. Since the append operation can only be conducted once for each word, i.e., the target word is only one-letter longer than its root in the array of start words, for each target word, we try to remove each of its letters and see if we can find it in the set.</p> 
+<p>Suppose there are <code>k</code> <code>1</code>'s in <code>nums</code> and we want to group them together, so we can check each <strong>sliding window</strong> with size <code>k</code> and count the number of <code>1</code>'s within it, then the number of <code>0</code>'s is the number of swaps needed since we can directly swap the <code>0</code> with any <code>1</code> outside the window.</p>
 
 
 <strong>C++</strong>
