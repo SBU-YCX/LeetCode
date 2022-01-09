@@ -39,7 +39,7 @@ The nodes with twins present in this linked list are:
 Thus, the maximum twin sum of the linked list is max(7, 4) = 7. 
 </pre>
 
-<strong>Example 2:</strong>
+<strong>Example 3:</strong>
 <br/>![ex3](https://assets.leetcode.com/uploads/2021/12/03/eg3drawio.png)
 <pre>
 <strong>Input:</strong> head = [1,100000]
