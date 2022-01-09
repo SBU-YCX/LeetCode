@@ -7,9 +7,9 @@
 class Solution {
 public:
     int wordCount(vector<string>& startWords, vector<string>& targetWords) {
-        int n = startWords.size(), ans = 0;
+        int m = startWords.size(), n = targetWords.size(), ans = 0;
         unordered_set<string> freq;
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < m; i++)
         {
             string f = string(26, '0');
             for (auto& c : startWords[i])
