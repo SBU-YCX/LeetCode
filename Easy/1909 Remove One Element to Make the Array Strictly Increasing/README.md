@@ -49,7 +49,7 @@ The result of removing any element is [1,1].
 </ul>
 
 
-## Solution 1:
+## Solution:
 
 <strong>Logical Thinking</strong>
 <p>Firstly, we can separate the whole array into several strictly increasing groups, according to the group number:</p>
@@ -100,40 +100,6 @@ public:
                     return false;
             }
         }
-    }
-};
-```
-
-
-## Solution 2: [Improved]
-
-<strong>Logical Thinking</strong>
-<p>We can also execute the operations directly on the original array. Since <code>0 &lt; nums[i] &lt; nums.length</code>, to make <code>nums[i]</code> keep both information of <code>nums[i]</code> and <code>nums[nums[i]]</code>, we can use <code>nums[i] = nums[i] + n * (nums[nums[i]] % n)</code>, i.e.</p>
-
-<ul>
-    <li><code>nums[i] % n</code> is the original value of <code>nums[i]</code></li>
-    <li><code>nums[i] / n</code> is the value of <code>nums[nums[i]]</code></li>
-</ul>
-
-
-<strong>C++</strong>
-
-```
-//  Topic   : 1920. Build Array from Permutation
-//  Author  : YCX
-//  Time    : O(N)
-//  Space   : O(1)
-
-
-class Solution {
-public:
-    vector<int> buildArray(vector<int>& nums) {
-        int n = nums.size();
-        for (int i = 0; i < n; i++)
-            nums[i] += (n * (nums[nums[i]] % n));
-        for (int i = 0; i < n; i++)
-            nums[i] /= n;
-        return nums;
     }
 };
 ```
