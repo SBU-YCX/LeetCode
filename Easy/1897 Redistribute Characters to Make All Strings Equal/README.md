@@ -38,7 +38,7 @@ All the strings are now equal to "abc", so return true.
 </ul>
 
 
-## Solution 1:
+## Solution:
 
 <strong>Logical Thinking</strong>
 <p>In order to make all strings equal, we only need the total frequency of each letter can be divided by the number of strings.</p>
