@@ -36,7 +36,7 @@
 ## Solution:
 
 <strong>Logical Thinking</strong>
-<p><code>Count</code> the frequency of each letter.</p>
+<p><strong>Count</strong> the frequency of each letter.</p>
 
 
 <strong>C++</strong>
