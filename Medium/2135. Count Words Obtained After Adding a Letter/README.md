@@ -79,7 +79,7 @@
 //  Topic   : 2135. Count Words Obtained After Adding a Letter
 //  Author  : YCX
 //  Time    : O((M + N) * K) [K is the average length of each word]
-//  Space   : O((M * K + K)
+//  Space   : O(M * K + K)
 
 
 class Solution {

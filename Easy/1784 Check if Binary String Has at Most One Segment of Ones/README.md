@@ -3,7 +3,7 @@
 
 ## Description:
 
-<p>Given a binary string <code>s</code> <strong>without leading zeros</strong>, return <em><code>true</code> if <code>s</code> contains <strong>at most one contiguous segment of ones</strong>. Otherwise, return <em><code>false</code>.</em></p>
+<p>Given a binary string <code>s</code> <strong>without leading zeros</strong>, return <em><code>true</code> if <code>s</code> contains <strong>at most one contiguous segment of ones</strong>.</em> Otherwise, return <em><code>false</code>.</em></p>
 
 
 ## Examples:
