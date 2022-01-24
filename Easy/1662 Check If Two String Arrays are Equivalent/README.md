@@ -1,4 +1,4 @@
-# [1662. Check If Two String Arrays are Equivalent(https://leetcode.com/problems/maximum-repeating-substring/)
+# [1662. Check If Two String Arrays are Equivalent](https://leetcode.com/problems/maximum-repeating-substring/)
 
 
 ## Description:
