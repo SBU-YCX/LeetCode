@@ -48,7 +48,7 @@
     <li><code>n == code.length</code></li>
     <li><code>1 &lt;= n &lt;= 100</code></li>
     <li><code>1 &lt;= code[i] &lt;= 100</code></li>
-    <li><code>-(n - 1) &lt;= k &lt;= n - 1</li>
+    <li><code>-(n - 1) &lt;= k &lt;= n - 1</code></li>
 </ul>
 
 
