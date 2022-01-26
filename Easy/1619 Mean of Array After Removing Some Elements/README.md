@@ -37,7 +37,7 @@
 <ul>
     <li><code>20 &lt;= arr.length &lt;= 1000</code></li>
     <li><code>arr.length</code> is a <strong>multiple</strong> of <code>20</code>.</li>
-    <li><code>0 &lt;= arr[i] &lt;= 10<sup>5</sup></li>
+    <li><code>0 &lt;= arr[i] &lt;= 10<sup>5</sup></code></li>
 </ul>
 
 
