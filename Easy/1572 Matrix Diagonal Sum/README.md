@@ -14,8 +14,8 @@
 <br/>![ex1](https://assets.leetcode.com/uploads/2020/08/14/sample_1911.png)
 <pre>
 <strong>Input:</strong> mat = [[1,2,3],
-                               [4,5,6],
-                               [7,8,9]]
+              [4,5,6],
+              [7,8,9]]
 <strong>Output:</strong> 25
 <strong>Explanation:</strong> Diagonals sum: 1 + 5 + 9 + 3 + 7 = 25
 Notice that element mat[1][1] = 5 is counted only once.
@@ -24,9 +24,9 @@ Notice that element mat[1][1] = 5 is counted only once.
 <strong>Example 2:</strong>
 <pre>
 <strong>Input:</strong> mat = [[1,1,1,1],
-                               [1,1,1,1],
-                               [1,1,1,1],
-                               [1,1,1,1]]
+              [1,1,1,1],
+              [1,1,1,1],
+              [1,1,1,1]]
 <strong>Output:</strong> 8
 <strong>Explanation:</strong>
 </pre>
